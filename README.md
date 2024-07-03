@@ -47,10 +47,66 @@ The dataset should be a CSV file with the following columns:
 
     The script will load the dataset, train a logistic regression model, and print the accuracy of the model on the test data.
 
+6. **Run the visualization script:**
+
+    ```bash
+    python visualization.py
+    ```
+
+    This script will load the dataset and generate various visualizations, including the distribution of scores, the number of matches played at home vs away, and the win rate for home vs away matches.
+
+## User Guide
+
+### Input Data
+
+1. **Dataset Preparation:**
+
+    - Ensure your dataset is in CSV format with the required columns: `Date`, `Opponent`, `Home/Away`, `Competition`, `Venue`, and `Score`.
+    - Place your dataset CSV file in the `data` directory and name it `ukraine_result.csv`.
+
+2. **Running the Prediction Script:**
+
+    - Open a terminal or command prompt.
+    - Navigate to the project directory.
+    - Ensure you have installed the required packages using the command:
+
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+    - Run the main script to train the model and get predictions:
+
+        ```bash
+        python main.py
+        ```
+
+3. **Generating Visualizations:**
+
+    - Run the visualization script to generate plots and graphs:
+
+        ```bash
+        python visualization.py
+        ```
+
+### Interpreting Results
+
+- **Model Accuracy:**
+
+    After running `main.py`, the accuracy of the prediction model will be displayed. This indicates how well the model predicts match outcomes based on the training data.
+
+- **Visualizations:**
+
+    The `visualization.py` script will generate and display several plots:
+    
+    - **Distribution of Scores:** Shows the frequency of different scores for home and away matches.
+    - **Number of Matches Played at Home vs Away:** Displays the count of matches played at home and away.
+    - **Win Rate for Home vs Away Matches:** Compares the win rate for matches played at home versus away.
+
 ## Files
 
 - `dataset_handler.py`: Contains the `DatasetHandler` class for loading and preprocessing the dataset.
 - `predictor.py`: The main script for training the model and making predictions.
+- `visualization.py`: Script for generating visualizations.
 - `main.py`: Entry point to run the prediction script.
 - `requirements.txt`: File containing the list of required Python packages.
 - `README.md`: This file.
