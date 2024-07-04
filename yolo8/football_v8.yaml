@@ -1,0 +1,5 @@
+train: ./data/football/train/images
+val: ./data/football/val/images
+
+nc: 3  # number of classes
+names: ['player', 'ball', 'goal']  # class names

@@ -1,0 +1,16 @@
+football_analysis/
+├── data/
+│   └── football/
+│       ├── train/
+│       │   ├── images/
+│       │   └── labels/
+│       ├── val/
+│       │   ├── images/
+│       │   └── labels/
+├── videos/
+├── football_v8.yaml
+├── extract_frames.py
+├── train_yolo.py
+├── analyze_football.py
+├── requirements.txt
+└── user_guide.md
