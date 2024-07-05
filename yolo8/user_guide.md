@@ -42,3 +42,39 @@ The analysis results will be saved in the output directory as JSON files, contai
 
 Conclusion
 This application provides a comprehensive pipeline for analyzing football matches using YOLOv8 models. By following the steps outlined in this guide, you can train custom models and generate detailed analysis reports for football match videos.
+
+Explanation of main.py
+Download Video:
+
+download_video(url, save_path): Downloads a video from the given URL and saves it to the specified path.
+Load Video:
+
+load_video(video_path): Loads a video from the specified path and checks if it can be opened.
+Process Video:
+
+process_video(video_path): Runs the data preprocessing, model training, object detection, event analysis, and report generation scripts.
+Main Function:
+
+Prompts the user to enter a video URL or load a default test video.
+Allows the user to pause the program (with a yellow message) or exit (with a red message).
+Processes the selected video using the defined pipeline.
+Instructions for Using the Program
+Ensure Dependencies:
+
+Make sure to have the required dependencies installed (ultralytics, opencv-python, clearml).
+Prepare Default Video:
+
+Place a test video named test.mp4 in the testVideo folder.
+Run the Program:
+
+Execute main.py to start the program.
+Follow the on-screen prompts to either download a video from a URL or load the default test video.
+Use the specified keys to control the program (e.g., pause or exit).
+This script provides a flexible and user-friendly interface for running the YOLOv8-based football analytics pipeline.
+
+
+
+
+
+
+
