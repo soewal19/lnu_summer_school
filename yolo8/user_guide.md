@@ -13,6 +13,7 @@ Install dependencies:
 
 
 pip install -r requirements.txt
+or run file into windows setup_and_run.bat
 Preparing the Dataset
 Place your recorded football match videos in the videos directory. The videos ould be in .mp4 format.
 
