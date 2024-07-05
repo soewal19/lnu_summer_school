@@ -14,6 +14,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 or run file into windows setup_and_run.bat
+Double-click setup_and_run.bat to execute it. This will set up the environment and run the pipeline.
 Preparing the Dataset
 Place your recorded football match videos in the videos directory. The videos ould be in .mp4 format.
 
