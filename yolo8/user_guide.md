@@ -37,7 +37,7 @@ Run the analyze_football.py script to analyze the videos and generate JSON repor
 
 
 python analyze_football.py
-## Output
+### Output
 The analysis results will be saved in the output directory as JSON files, containing detailed information about the detected objects (players, ball, goal) in each frame of the video.
 
 Conclusion
