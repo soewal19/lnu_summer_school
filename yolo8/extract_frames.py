@@ -2,7 +2,8 @@ import cv2
 import os
 import random
 from pathlib import Path
-
+# Paths to videocontent
+video_path=''
 # Paths to video folder and output directories
 video_folder = './videos'
 train_images_folder = './data/football/train/images'
